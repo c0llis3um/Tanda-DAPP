@@ -1,5 +1,5 @@
-# Tanda-DAPP
+# Tanda-DAPP v0.1
 Dapp 
-Powered in solana
+Powered in solana.
 Download or clone
 yarn start
