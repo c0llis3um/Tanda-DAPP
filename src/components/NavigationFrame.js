@@ -24,7 +24,7 @@ import Divider from '@material-ui/core/Divider';
 import Hidden from '@material-ui/core/Hidden';
 import IconButton from '@material-ui/core/IconButton';
 import SolanaIcon from './SolanaIcon';
-import CodeIcon from '@material-ui/icons/Code';
+//import CodeIcon from '@material-ui/icons/Code';
 import Tooltip from '@material-ui/core/Tooltip';
 import ImportExportIcon from '@material-ui/icons/ImportExport';
 import AddAccountDialog from './AddAccountDialog';
@@ -92,7 +92,7 @@ export default function NavigationFrame({ children }) {
         )}
         <Toolbar>
           <Typography variant="h6" className={classes.title} component="h1">
-            {isExtensionWidth ? 'TAN' : 'TAN Wallet'}
+            {isExtensionWidth ? 'Sollet' : 'TAN Wallet'}
           </Typography>
           <NavigationButtons />
         </Toolbar>
