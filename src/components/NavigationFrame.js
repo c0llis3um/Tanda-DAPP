@@ -92,7 +92,7 @@ export default function NavigationFrame({ children }) {
         )}
         <Toolbar>
           <Typography variant="h6" className={classes.title} component="h1">
-            {isExtensionWidth ? 'Sollet' : 'TAN Wallet'}
+            {isExtensionWidth ? 'TAN Wallet' : 'TAN Wallet'}
           </Typography>
           <NavigationButtons />
         </Toolbar>
